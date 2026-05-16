@@ -1,0 +1,5 @@
+python self_check.py --adapter adapters.myteam:Engine
+python self_check.py --adapter adapters.myteam:Engine --quick
+python run.py --adapter adapters.myteam:Engine --seeds 42 101 202 303 404 --out report.json
+python self_check.py --adapter adapters.dummy:DummyAgent --quick
+python run.py --adapter adapters.myteam:Engine --seeds 7 13 42 --n-per-level 100
